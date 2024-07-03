@@ -6,7 +6,7 @@ app.get('/', function (req, res) {
 })
 
 //Desafio - criar endpoint /oi que exibe "Olá Mundo"
-app.get('/oi', function (rq, res){
+app.get('/oi', function (req, res){
   res.send("Olá Mundo")
 })
 
